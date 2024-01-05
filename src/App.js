@@ -1,4 +1,3 @@
-import "./App.css";
 import Textform from "./components/Textform/textform";
 import Navbar from "./components/Navbar/navbar";
 import React, { useState } from "react";
@@ -7,7 +6,6 @@ import About from "./components/About/About";
 
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
   Routes,
 } from "react-router-dom";
