@@ -7,7 +7,7 @@ export default function About() {
         <h1 class="display-4">About</h1>
       </div>
       <div className="container mt-5">
-        <p>Welcome to TextAlchemy, where text transformation meets simplicity. Our application is designed to make text manipulation a breeze, providing users with a versatile set of tools to transform text in various ways
+        <p>Welcome to TextAlchemy, where text transformation meets simplicity. Our application is designed to make text manipulation a breeze, providing users with a versatile set of tools to transform text in various ways.
           <br />
           <br />
 
