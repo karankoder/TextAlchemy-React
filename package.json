@@ -25,7 +25,7 @@
       "react-app/jest"
     ],
     "rules": {
-      "treatWarningsAsErrors": false
+      "treatWarningsAsErrors": 0
     }
     
   },
