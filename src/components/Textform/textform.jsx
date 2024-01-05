@@ -48,7 +48,7 @@ export default function Textform(props) {
         <div>
             <div className="mb-3">
                 <label for="exampleFormControlTextarea1" className="form-label" style={{ fontSize: '35px', color:props.mode==="light"?"black":"white"}} >Enter the text to analyze</label>
-                <textarea className="form-control"  onChange={handleOnChange} placeholder="Enter text here" value={text} id="exampleFormControlTextarea1 textCopy" rows="13" style={{ width: '100%' , fontSize:20, backgroundColor:props.mode==="light"?"white":"#5C4E4D",color:props.mode==="light"?"black":"white"}}></textarea>
+                <textarea className="form-control"  onChange={handleOnChange} placeholder="Enter text here" value={text} id="exampleFormControlTextarea1 textCopy" rows="8" style={{ width: '100%' , fontSize:20, backgroundColor:props.mode==="light"?"white":"#5C4E4D",color:props.mode==="light"?"black":"white"}}></textarea>
                 <div className="buttons container d-flex justify-content-between align-items-center">
                 <button className={`btn btn-${props.mode==="light"?"primary":"dark"} mt-2`} onClick={handleUpClick}>Convert to Uppercase</button>
                 <button className={`btn btn-${props.mode==="light"?"primary":"dark"} mt-2`} onClick={handleClear}>Clear Text</button>
